@@ -106,6 +106,7 @@
         };
 
         Nav {
+            display-name = "Nav";
             bindings = <
 &trans  &trans        &trans         &trans            &trans          &trans                    &trans          &trans        &trans     &trans         &trans     &trans     &kp DEL
 &trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &trans
@@ -115,6 +116,7 @@
         };
 
         Mouse {
+            display-name = "Mouse";
             bindings = <
 &trans  &trans        &trans         &trans            &trans          &trans                    &trans          &trans        &trans          &trans          &trans        &trans           &kp DEL
 &trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp CAPSLOCK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
@@ -124,6 +126,7 @@
         };
 
         media {
+            display-name = "Media";
             bindings = <
 &trans  &trans        &trans         &trans            &trans          &trans                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp CAPSLOCK     &kp K_PREV       &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_NEXT       &trans
@@ -135,6 +138,7 @@
         };
 
         num {
+            display-name = "Num";
             bindings = <
 &trans  &kp LBKT   &kp N7  &kp N8  &kp N9     &kp RBKT                     &trans          &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp SEMI   &kp N4  &kp N5  &kp N6     &kp EQUAL            &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
@@ -153,6 +157,7 @@
         };
 
         fun {
+            display-name = "Fun";
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8             &kp F9     &kp SYSREQ                         &trans          &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp F11  &kp F4  &kp F5             &kp F6     &kp SCROLLLOCK             &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
