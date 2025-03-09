@@ -30,14 +30,12 @@
             bindings = <&kp>, <&kp>;
 
             tapping-term-ms = <200>;
-            quick-tap-ms = <170>;
 
             /* Adjust these positions as needed for your left-hand home row keys */
 
             hold-trigger-key-positions = <0 1 2 3>;
             hold-trigger-on-release;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
         };
 
         /* Home Row Mods – Right Hand */
@@ -49,7 +47,6 @@
             bindings = <&kp>, <&kp>;
 
             tapping-term-ms = <200>;
-            quick-tap-ms = <170>;
 
             /* Adjust these positions as needed for your right-hand home row keys */
 
