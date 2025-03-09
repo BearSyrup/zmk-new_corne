@@ -200,6 +200,7 @@
         };
 
         sym {
+            display-name = "Sym";
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE                    &trans          &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp COLON       &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS                   &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
