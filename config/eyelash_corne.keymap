@@ -33,7 +33,7 @@
 
             /* Adjust these positions as needed for your left-hand home row keys */
 
-            hold-trigger-key-positions = <0 1 2 3>;
+            hold-trigger-key-positions = <14 15 16 17>;
             hold-trigger-on-release;
             flavor = "balanced";
         };
@@ -50,7 +50,7 @@
 
             /* Adjust these positions as needed for your right-hand home row keys */
 
-            hold-trigger-key-positions = <0 1 2 3>;
+            hold-trigger-key-positions = <23 24 25 26>;
             hold-trigger-on-release;
             flavor = "balanced";
             require-prior-idle-ms = <125>;
