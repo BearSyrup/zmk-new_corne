@@ -72,7 +72,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CAP_WORD";
             #binding-cells = <0>;
-            continue-list = <SPACE>;
+            continue-list = <UNDERSCORE BACKSPACE>;
         };
 
         r_hold_layer: r_hold_layer {
@@ -134,6 +134,7 @@
         l_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <3 4>;
+            require-prior-idle-ms = <100>;
         };
 
         r_bracket {
@@ -181,7 +182,7 @@
             display-name = "Media";
             bindings = <
 &trans  &trans        &trans         &trans            &trans          &trans                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &sl 8   &trans  &kp CAPSLOCK     &kp K_PREV       &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_NEXT       &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &to 8   &trans  &kp CAPSLOCK     &kp K_PREV       &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_NEXT       &trans
 &trans  &trans        &kp RIGHT_ALT  &trans            &trans          &trans  &trans            &trans          &trans           &trans           &trans           &trans           &trans           &trans
                                      &trans            &trans          &trans                                    &mkp LCLK        &mkp RCLK        &mkp MCLK
             >;
@@ -231,10 +232,12 @@
         gaming_layer {
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3     &kp N4                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp T   &trans  &kp Q   &kp W   &kp E      &trans            &trans  &sl 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp T   &trans  &kp Q   &kp W   &kp E      &trans            &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp Z   &kp A   &kp S   &kp D      &kp C   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp SPACE  &trans                                    &trans  &trans  &trans
             >;
+
+            label = "lash";
         };
     };
 
