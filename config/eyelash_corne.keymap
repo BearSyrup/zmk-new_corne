@@ -149,10 +149,10 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&trans     &kp Q            &kp W            &kp E                &kp R                  &kp T                                       &kp UP                &kp Y                  &kp U                      &kp I                     &kp O            &kp P               &kp PIPE
-&cap_word  &h_row_l LGUI A  &h_row_l LALT S  &h_row_l LCTRL D     &h_row_l LSHIFT F      &kp G                             &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &h_row_r RIGHT_SHIFT J     &h_row_r RIGHT_CONTROL K  &h_row_r RALT L  &h_row_r RGUI SEMI  &kp APOS
-&trans     &kp Z            &kp X            &kp C                &kp V                  &kp B                &kp SPACE              &kp DOWN              &kp N                  &kp M                      &kp COMMA                 &kp DOT          &kp FSLH            &trans
-                                             &l_hold_layer 3 ESC  &l_hold_layer 1 SPACE  &l_hold_layer 2 TAB                                               &r_hold_layer 5 ENTER  &r_hold_layer 4 BACKSPACE  &r_hold_layer 6 DELETE
+&trans     &kp Q            &kp W            &kp E                &kp R                  &kp T                                        &kp UP                &kp Y                  &kp U                      &kp I                     &kp O            &kp P               &kp PIPE
+&cap_word  &h_row_l LGUI A  &h_row_l LALT S  &h_row_l LCTRL D     &h_row_l LSHIFT F      &kp G                              &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &h_row_r RIGHT_SHIFT J     &h_row_r RIGHT_CONTROL K  &h_row_r RALT L  &h_row_r RGUI SEMI  &kp APOS
+&trans     &kp Z            &kp X            &kp C                &kp V                  &kp B                &kp K_MUTE              &kp DOWN              &kp N                  &kp M                      &kp COMMA                 &kp DOT          &kp FSLH            &trans
+                                             &l_hold_layer 3 ESC  &l_hold_layer 1 SPACE  &l_hold_layer 2 TAB                                                &r_hold_layer 5 ENTER  &r_hold_layer 4 BACKSPACE  &r_hold_layer 6 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -161,10 +161,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-&trans  &trans        &trans         &trans            &trans          &trans                    &trans          &trans        &trans     &trans         &trans     &trans     &kp DEL
-&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &trans
-&trans  &trans        &kp RIGHT_ALT  &trans            &trans          &trans  &trans            &trans          &trans        &kp HOME   &kp PG_DN      &kp PG_UP  &kp END    &trans
-                                     &trans            &trans          &trans                                    &trans        &kp ENTER  &kp BACKSPACE
+&trans  &trans        &trans         &trans            &trans          &trans                    &trans          &kp CAPSLOCK    &trans          &trans         &trans           &trans   &kp DEL
+&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans            &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans   &trans
+&trans  &trans        &kp RIGHT_ALT  &trans            &trans          &trans  &trans            &trans          &trans          &kp HOME        &kp PG_DN      &kp PG_UP        &kp END  &trans
+                                     &trans            &trans          &trans                                    &trans          &kp ENTER       &kp BACKSPACE
             >;
         };
 
